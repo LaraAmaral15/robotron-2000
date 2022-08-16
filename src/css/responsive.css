@@ -43,3 +43,31 @@
     height: 32rem;
   }
 }
+
+@media (max-width: 415px) {
+  body {
+    font-size: 1rem;
+  }
+  
+  .cabecalho .titulo {
+    font-size: 3.5rem;
+  }
+
+  .cabecalho .icon-robotron {
+    width: 5.5rem;
+    height: 5.5rem;
+  }
+  
+  .lista-robos {
+    width: 25rem;
+    height: 25rem;
+  }
+
+  .estatisticas {
+    width: 30.5rem;
+  }
+
+  .equipamentos {
+    width: 30.5rem;
+  }
+}
