@@ -1,0 +1,45 @@
+@media (max-width: 620px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  .conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .estatisticas {
+    width: 40rem;
+  }
+
+  .estatistica-valor {
+    line-height: 6rem;
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .producao {
+    float: none;
+    display: block;
+    margin: 1.2rem auto;
+    padding: 0.8rem 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 1.2rem;
+  }
+
+  .cabecalho {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .lista-robos {
+    width: 32rem;
+    height: 32rem;
+  }
+}
